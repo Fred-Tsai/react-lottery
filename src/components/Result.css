@@ -1,14 +1,6 @@
 .result {
   padding: 8px;
 }
-.result__user {
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: fit-content;
-  border: 1px solid #808080;
-}
 .result__title {
   font-size: 2em;
   text-align: center;
@@ -16,8 +8,14 @@
 .result__title + .result__user {
   margin-top: 8px;
 }
+.result__user {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #808080;
+}
 .result__avator {
-  padding: 100px;
   width: 128px;
   height: 128px;
 }
