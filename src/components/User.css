@@ -1,0 +1,22 @@
+.user {
+  display: flex;
+  align-items: center;
+  margin: 8px;
+}
+.user__avator {
+  margin: 4px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.user__avator + .user__name {
+  margin-left: 8px;
+}
+.user__name {
+  flex-grow: 1;
+  width: calc(100% - 56px);
+  white-space : nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
