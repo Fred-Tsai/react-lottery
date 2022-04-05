@@ -1,0 +1,42 @@
+.timer {
+  padding: 8px;
+}
+.timer__title {
+  font-size: 2em;
+  text-align: center;
+}
+.timer__title + .timer__set {
+  margin-top: 8px;
+}
+.timer__set {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.timer__info {
+  margin: 4px;
+}
+.timer__btn {
+  padding: 4px;
+  border-radius: 4px;
+}
+.timer__view {
+  display: flex;
+  justify-content: center;
+}
+.timer__calc {
+  font-size: 10em;
+  line-height: 1.5em;
+}
+.timer__load {
+  display: none;
+  text-align: center;
+}
+.timer__load-active {
+  display: block;
+}
+@media screen and (max-width: 380px) {
+  .timer__set {
+    flex-direction: column;
+  }
+}
